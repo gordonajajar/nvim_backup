@@ -15,6 +15,7 @@
 ## About
 
 Fast and lightweight, highly customalisable Personalised Development Environment using Neovim. 
+I use this as a backup for my Neovim config.
 
 ## Install [Neovim 0.10](https://github.com/neovim/neovim/releases/tag/v0.10.0)
 
@@ -52,7 +53,7 @@ Make sure to remove or move your current `nvim` config directory.
 
 ```sh
 mv ~/.config/nvim/ ~/.config/nvim-bak/
-git clone https://github.com/gordonajajar/nvim_config.git ~/.config/nvim
+git clone git@github.com:gordonajajar/nvim_config.git ~/.config/nvim
 ```
 > Run `nvim` and wait for the plugins to be installed
 
