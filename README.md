@@ -58,11 +58,11 @@ git clone git@github.com:gordonajajar/nvim_config.git ~/.config/nvim
 > Run `nvim` and wait for the plugins to be installed
 
 ## Keymaps
-General keymaps can be found in core/keymaps.lua. Plugin-specific keymaps are defined in individual plugin files in plugins/, but are
-also displayed in core/keymaps.lua.
+Keymaps, general and plugin-specific, can be found in core/keymaps.lua. Plugin-specific keymaps are defined in individual plugin files in plugins/, but are also displayed in core/keymaps.lua.
 
 ## Acknowledgement
 - [Lazy.nvim](https://github.com/folke/lazy.nvim)
 - [sadiksaifi](https://github.com/sadiksaifi)
+- [VimTricks](https://vimtricks.com/p/word-wrapping/)
 
 

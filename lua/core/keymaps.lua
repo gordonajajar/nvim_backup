@@ -15,6 +15,9 @@ vim.keymap.set("n", "<leader>sh", "<C-w>s")
 vim.keymap.set("n", "<leader>se", "<C-w>=")
 vim.keymap.set("n", "<leader>sx", "<cmd>close<CR>")
 
+
+--PLUGIN-SPECIFIC KEYMAPS (defined in individual .luas in plugins/):
+--
 --telescope
 vim.keymap.set("n", "<leader>ff", ":Telescope find_files<cr>")
 vim.keymap.set("n", "<leader>fz", ":Telescope live_grep<cr>")
@@ -27,7 +30,6 @@ vim.keymap.set("n", "<leader>e", ":NvimTreeFindFileToggle<cr>")
 vim.keymap.set("", "<leader>/", ":CommentToggle<cr>")
 
 
---PLUGIN-SPECIFIC KEYMAPS (defined in individual .luas in plugins/):
 --
 --Tmux
 --{ "<c-h>", "<cmd><C-U>TmuxNavigateLeft<cr>" },
